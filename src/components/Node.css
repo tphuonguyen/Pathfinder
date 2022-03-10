@@ -1,0 +1,38 @@
+.node{
+    width: 6.5px;
+    height: 6.5px;
+    border: 0px solid black;
+}
+
+.iswall{
+    background-color: #FFFFFF;
+}
+
+.isaisle{
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.ispath{
+    background-color: #E4E8EC;
+}
+
+.isfittingroom{
+    background-color: #D9DDE2;
+}
+
+.title {
+    overflow: visible;
+    position: absolute;
+    vertical-align: text-top;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.node-start{
+    background-color: rgb(0, 255, 0);
+}
+
+.node-end{
+    background-color: rgb(255, 0, 0);
+}

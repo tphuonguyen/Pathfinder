@@ -1,0 +1,143 @@
+.Wrapper{
+    max-width: 90%;
+    margin: auto;
+}
+
+.rowWrapper{
+    display: flex;
+}
+
+.node-shortest-path{
+    background-color: rgb(255, 143, 143);
+
+}
+
+.customButton {
+	background-color:#CC0102;
+	border-radius:10px;
+	border:1px solid #CC0102;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Helvetica;
+	font-size:18px;
+    font-weight:bold;
+    width: 350px;
+    height: 40px;
+    left: 16px;
+    top: 75px;
+	padding:10px 40px;
+	text-decoration:none;
+    margin-bottom: 25px;
+}
+.customButton:hover {
+	background-color:#b80606;
+}
+.customButton:active {
+    width: 350px;
+    height: 40px;
+    left: 16px;
+    top: 75px;
+}
+
+.checkoutButton {
+	background-color:#CC0102;
+	border-radius:10px;
+	border:1px solid #CC0102;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Helvetica;
+	font-size:15px;
+    font-weight:bold;
+    width: 100px;
+    height: 40px;
+    left: 16px;
+    top: 50px;
+	padding:10px 10px;
+	text-decoration:none;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+.checkoutButton:hover {
+	background-color:#b80606;
+}
+.checkoutButton:active {
+    width: 100px;
+    height: 40px;
+    left: 16px;
+    top: 50px;
+}
+ 
+.list {
+    list-style-type: none;
+    font-family:Helvetica;
+    font-size: 12px;
+    line-height: 125%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.addSpace {
+    margin-top: 25px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+    margin-right: 10px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #CC0102;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 10px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #ccc;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    transform: translateX(-8px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
